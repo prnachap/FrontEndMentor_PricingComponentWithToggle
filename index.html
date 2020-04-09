@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Pricing Component With Toggle</title>
+    <link
+      href="https://fonts.googleapis.com/css?family:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="m-heading">Our Pricing</h1>
+      <div class="container">
+        <span class="slider_label">Annually</span>
+        <label class="switch">
+          <input class="inputValue" type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <span class="slider_label">Monthly</span>
+      </div>
+    </header>
+    <div id="plans">
+      <div class="plans__list">
+        <article class="plan">
+          <h3 class="sub__header">Basic</h3>
+          <h2 class="price__monthly">&dollar;19.99</h2>
+          <ul class="plan__features">
+            <li class="plan__feature">500 GB Storage</li>
+            <li class="plan__feature">2 Users Allowed</li>
+            <li class="plan__feature">Send up to 3 GB</li>
+            <li><a href="#">Learn More</a></li>
+          </ul>
+        </article>
+        <article class="plan plan--highlighted">
+          <h3 class="sub__header sub__header--light">Professional</h3>
+          <h2 class="price__monthly price__monthly--light">&dollar;24.99</h2>
+          <ul class="plan__features plan__features--light">
+            <li class="plan__feature">500 GB Storage</li>
+            <li class="plan__feature">2 Users Allowed</li>
+            <li class="plan__feature">Send up to 3 GB</li>
+            <li><a href="#">Learn More</a></li>
+          </ul>
+        </article>
+        <article class="plan">
+          <h3 class="sub__header">Master</h3>
+          <h2 class="price__monthly">&dollar;39.99</h2>
+          <ul class="plan__features">
+            <li class="plan__feature">500 GB Storage</li>
+            <li class="plan__feature">2 Users Allowed</li>
+            <li class="plan__feature">Send up to 3 GB</li>
+            <li><a href="#">Learn More</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Nachappa P R</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
